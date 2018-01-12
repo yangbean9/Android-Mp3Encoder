@@ -1,0 +1,55 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/robin/Documents/github/av/Android-Mp3Encoder/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/robin/Opt/android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/robin/Documents/github/av/Android-Mp3Encoder/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_lame-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "lib_lame",
+			"buildType" : "debug",
+			"output" : "/Users/robin/Documents/github/av/Android-Mp3Encoder/app/../distribution/lame/lib/libmp3lame.a",
+			"toolchain" : "7059109346266885146"
+		},
+		"mp3encoder-lib-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "mp3encoder-lib",
+			"buildCommand" : "/Users/robin/Opt/android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/robin/Documents/github/av/Android-Mp3Encoder/app/.externalNativeBuild/cmake/debug/arm64-v8a --target mp3encoder-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/robin/Opt/android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/robin/Opt/android/sdk/ndk-bundle/sysroot  -Dmp3encoder_lib_EXPORTS -I../../../../../distribution/lame/include -isystem /Users/robin/Opt/android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/robin/Opt/android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/robin/Opt/android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/robin/Opt/android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/robin/Documents/github/av/Android-Mp3Encoder/app/src/main/cpp/mp3_encoder.cpp",
+					"workingDirectory" : "/Users/robin/Documents/github/av/Android-Mp3Encoder/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/robin/Opt/android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/robin/Opt/android/sdk/ndk-bundle/sysroot  -Dmp3encoder_lib_EXPORTS -I../../../../../distribution/lame/include -isystem /Users/robin/Opt/android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/robin/Opt/android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/robin/Opt/android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/robin/Opt/android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/robin/Documents/github/av/Android-Mp3Encoder/app/src/main/cpp/jni_Mp3Encoder.cpp",
+					"workingDirectory" : "/Users/robin/Documents/github/av/Android-Mp3Encoder/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/Users/robin/Documents/github/av/Android-Mp3Encoder/app/build/intermediates/cmake/debug/obj/arm64-v8a/libmp3encoder-lib.so",
+			"toolchain" : "7059109346266885146"
+		}
+	},
+	"toolchains" : 
+	{
+		"7059109346266885146" : 
+		{
+			"cCompilerExecutable" : "/Users/robin/Opt/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/robin/Opt/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

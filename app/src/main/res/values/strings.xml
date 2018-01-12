@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android-Mp3Encoder</string>
+    <string name="encode_mp3">编码mp3</string>
+</resources>

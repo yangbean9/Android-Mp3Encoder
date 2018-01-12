@@ -1,0 +1,3 @@
+/Users/robin/Documents/github/av/Android-Mp3Encoder/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/Users/robin/Documents/github/av/Android-Mp3Encoder/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/robin/Documents/github/av/Android-Mp3Encoder/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/mp3encoder-lib.dir
